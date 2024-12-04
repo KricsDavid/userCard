@@ -1,6 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
+type User = {
+  id: number;
+  name: string;
+  email: string;
+  age: number;
+  profilePicture: string;
+};
+
 type UserCardProps = {
   user: User;
 };
